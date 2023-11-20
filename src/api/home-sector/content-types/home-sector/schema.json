@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_sectors",
+  "info": {
+    "singularName": "home-sector",
+    "pluralName": "home-sectors",
+    "displayName": "homeSector",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tittle": {
+      "type": "string"
+    },
+    "subTittle": {
+      "type": "string"
+    },
+    "sectors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sector.sector"
+    }
+  }
+}
