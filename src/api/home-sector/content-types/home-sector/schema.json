@@ -4,7 +4,7 @@
   "info": {
     "singularName": "home-sector",
     "pluralName": "home-sectors",
-    "displayName": "homeSector",
+    "displayName": "HomeSector",
     "description": ""
   },
   "options": {
@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "tittle": {
+    "title": {
       "type": "string"
     },
-    "subTittle": {
+    "subTitle": {
       "type": "string"
     },
     "sectors": {
